@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "PayUIndia-3DS2-SDK", url: "https://github.com/payu-intrepos/PayU3DS2SDK-iOS.git", .exact("1.4.2"))
+        .package(name: "PayUIndia-3DS2-SDK", url: "https://github.com/payu-intrepos/PayU3DS2SDK-iOS.git", .exact("1.4.4"))
     ],
     targets: [
         .binaryTarget(
