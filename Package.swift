@@ -13,13 +13,13 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "PayUIndia-3DS2-SDK", url: "https://github.com/payu-intrepos/PayU3DS2SDK-iOS.git", .exact("1.4.4"))
+        .package(name: "PayUIndia-3DS2-SDK", url: "https://github.com/payu-intrepos/PayU3DS2SDK-iOS.git", .exact("1.4.2"))
     ],
     targets: [
         .binaryTarget(
             name: "HyperPayU",
-            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.4/HyperPayU.zip",
-            checksum: "c82546113b532049db40b35c2ecf1ef8b46533f3704803013822c69791f5e6ea"
+            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.4.15/HyperPayU.zip",
+            checksum: "11249c12ccb90ae70f4d1137ae8292f8eb8d1e82b714d78800efeb6e593d4fe8"
         ),
         .target(
             name: "HyperPayUDependencies",
