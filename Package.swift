@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "HyperPayU",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HyperPayU",
-            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.7.1/HyperPayU.zip",
-            checksum: "c0b41bc0d1abdcfdb84cd3e0b9dae74f4d2604a528e80557cf75cf0477895def"
+            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.7.2/HyperPayU.zip",
+            checksum: "994223fdff58650d602d67141f4250bbce7cc0dc24278c1cd4b550e474e134d5"
         ),
         .target(
             name: "HyperPayUDependencies",
