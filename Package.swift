@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HyperPayU",
-            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.7.4/HyperPayU.zip",
-            checksum: "d5d6a9a9693ab43165b853e79c6b925f594bce1b7a9f5f943bbcc22413c3f270"
+            url: "https://public.releases.juspay.in/release/ios/hyper-sdk/2.2.7.5/HyperPayU.zip",
+            checksum: "00cd22700e67f3a8abc6606512fc8eb464cf61d3f972e1b2a9bfa36e13312433"
         ),
         .target(
             name: "HyperPayUDependencies",
